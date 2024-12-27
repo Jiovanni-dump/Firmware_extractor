@@ -12,16 +12,20 @@ from os import path
 ALTERNATE_PARTITION_PATH_MAP = {
     'product': [
         'system/product',
+        'system/system/product',
     ],
     'system_ext': [
         'system/system_ext',
+        'system/system/system_ext',
     ],
     'odm': [
         'vendor/odm',
         'system/vendor/odm',
+        'system/system/vendor/odm',
     ],
     'vendor': [
         'system/vendor',
+        'system/system/vendor',
     ],
 }
 
